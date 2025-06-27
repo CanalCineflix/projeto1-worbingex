@@ -1,0 +1,126 @@
+<!-- filmes-free.html -->
+     <div class="movie-item" data-category="inicio,lancamento,acao,ficcao,terror">
+        <img src="imagens/predador-assassino.webp" >
+        <div class="sinopse">SINOPSE:Uma viking, um samurai e um piloto da Segunda Guerra se tornam presa do predador mais mortal do universo. 
+            Unidos pela sobrevivência, enfrentam uma criatura com força, agilidade e fúria superiores. 
+            Animação antológica que antecede Predador: Badlands (2025).</div>
+        <button onclick="openModal('videos/predador-assasino-de-assasino-2025.mkv')">Predador: Assassino de Assassinos 2025</button>
+    </div>
+       <div class="movie-item" data-category="inicio,romance,fantasia,lancamento,aventura" >
+        <img src="imagens/branca de neve.jpg">
+        <div class="sinopse">SINOPSE:Branca de Neve foge da Rainha Má, que sente inveja de sua beleza e ordena sua morte. 
+            Na floresta, ela encontra sete anões que a ajudam, mas o perigo persiste quando a vilã tenta envenená-la com uma maçã. 
+            Uma nova versão do clássico conto de fadas.</div>
+        <button onclick="openModal('videos/branca-de-neve-2025.mkv')">Branca de Neve 2025 FREE</button>
+    </div>
+    <!-- Filme 4 -->
+    <div class="movie-item" data-category="lancamento,comedia,inicio">
+        <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8ACkSmnhc1a57yH2IgBOdjyFHYN.jpg">
+        <div class="sinopse">SINOPSE:Mountainhead acompanha quatro amigos bilionários, donos de empresas de tecnologia, 
+            que se reúnem numa mansão durante o desenrolar de uma crise política,
+             social e econômica internacional.</div>
+        <button onclick="openModal('videos/mountainhead-2025.mkv')">Mountainhead 2025</button>
+    </div>
+    <!-- Filme 5 -->
+    <div class="movie-item" data-category="inicio,suspense,lancamento,aventura">
+        <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9XtzGmFT6cegK0uyJrUaknuxZHS.jpg">
+        <div class="sinopse">SINOPSE:Um grupo de antigos amigos de faculdade se reúne em uma viagem de mergulho no Caribe explorando os destroços de um navio da Segunda Guerra Mundial. 
+            Eles ficam presos em um labirinto submarino de metal enferrujado, cercados por tubarões-brancos.</div>
+        <button onclick="openModal('videos/o-ultimo-mergulho-2025.mkv')">O Último Suspiro 2025</button>
+    </div>
+ <div class="movie-item" data-category="inicio,acao,lancamento,comedia">
+            <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pdX1SiCPw5qwKSUdX8AXU3B1QHZ.jpg" >
+            <div class="sinopse">SINOPSE:Jackie Chan embarca em uma missão para resgatar o panda Hu Hu, 
+                sequestrado por criminosos que querem lucrar com sua mancha preta única. Junto com seu agente e o cuidador do panda,
+                 ele enfrenta mercenários em uma aventura cheia de ação para salvar o animal e derrotar os vilões.</div>
+            <button onclick="openModal('videos/operacao-panda-2024.mkv')">Operação Panda 2024</button>
+        </div>
+        
+        <div class="movie-item" data-category="inicio,acao,lancamento,fantasia">
+            <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hSljn1jfCClIbHNdlz6cWQEjncV.jpg" >
+            <div class="sinopse">SINOPSE:Uma rainha envia a feiticeira Gray Alys para as Terras Perdidas em busca de um poder mágico. 
+                Acompanhada por Boyce, um caçador misterioso, ela enfrenta criaturas e inimigos sombrios. 
+                Mas cada desejo realizado por Gray tem consequências devastadoras, tornando a missão ainda mais perigosa.</div>
+            <button onclick="openModal('videos/nas-terras-perdidas-2025.mkv')">Nas Terras Perdidas 2025</button>
+        </div>
+
+        <div class="movie-item" data-category="inicio,drama,lancamento,comedia">
+            <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aOiXGcZS6Oqknbw13cBdwO3hWij.jpg" >
+            <div class="sinopse">SINOPSE:João Grilo retorna a Taperoá após 20 anos e vira celebridade, considerado um santo por ter sido ressuscitado. 
+                Com a ajuda de Chicó, tenta enriquecer aplicando um golpe, mas se envolve com políticos e descobre que o passado volta a se repetir, gerando novas confusões e trapalhadas.
+            </div>
+            <button onclick="openModal('videos/o-auto-da-compadecida2-2024.mkv')">O Auto da Compadecida 2 2025</button>
+        </div>
+
+        <div class="movie-item" data-category="inicio,aventura,lancamento,comedia">
+            <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zjdB4LxQfkAx5g2hcFbUXND3n2u.jpg" >
+            <div class="sinopse">SINOPSE:Quatro desajustados são transportados para o mundo cúbico de Minecraft, onde enfrentam criaturas e perigos. 
+                Para voltar ao seu mundo, precisam dominar o Overworld com a ajuda de Steve, um construtor imprevisível. 
+                Juntos, redescobrem habilidades que os ajudam a prosperar tanto no jogo quanto na vida real.</div>
+            <button onclick="openModal('videos/um-filme-minecraft-2025.mkv')">Um Filme Minecraft 2025</button>
+        </div>
+
+        <div class="movie-item" data-category="inicio,acao,lancamento">
+            <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rzgdPXb0Fy3EIZgRD96rhAPTLSR.jpg" >
+            <div class="sinopse">SINOPSE:Levon Cade, ex-agente secreto, vive uma vida simples com sua filha, até que a jovem desaparece. 
+                Forçado a resgatar suas habilidades antigas, ele enfrenta uma conspiração criminosa perigosa. 
+                Entre adrenalina e riscos, ele precisa proteger os inocentes e confrontar seu passado para salvar sua filha.</div>
+            <button onclick="openModal('videos/resgate-implacavel.mkv')">Resgate Implacável 2025 HDCAM</button>
+        </div>
+
+         <div class="movie-item" data-category="aventura,fantasia"> <!-- EXEMPLO:acao,inicio,lancamento -->
+            <img src="https://storage.googleapis.com/site-minas-tenis-gcp/media/phzhw2tt/hp1.jpg" > <!-- IMAGEM -->
+            <div class="sinopse">SINOPSE:Harry Potter, um garoto órfão, descobre que é um bruxo e é convidado a estudar na escola de magia Hogwarts. Lá, ele faz amigos leais, enfrenta perigos e descobre que tem um destino especial: derrotar o bruxo das trevas, Voldemort, que quer voltar ao poder.</div>
+            <button onclick="openModal('videos/harry-potter-e-a-pedra-filosofal-2001.mp4')">Harry Potter e a Pedra Filosofal 2001</button>
+        </div>
+         <div class="movie-item" data-category="aventura,fantasia"> <!-- EXEMPLO:acao,inicio,lancamento -->
+            <img src="https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/93/01/50/20230712.jpg" > <!-- IMAGEM -->
+            <div class="sinopse">SINOPSE:Harry retorna a Hogwarts para seu segundo ano e logo descobre que algo está muito errado. A Câmara Secreta foi reaberta e uma série de ataques misteriosos coloca a escola em perigo. Com a ajuda de seus amigos, Harry busca a verdade por trás dos ataques e enfrenta novos desafios.</div>
+            <button onclick="openModal('videos/harry-potter-e-a-camera-secreta-2002.mp4')">Harry Potter e a Câmara Secreta 2002</button>
+        </div>
+        <div class="movie-item" data-category="aventura,fantasia"> <!-- EXEMPLO:acao,inicio,lancamento -->
+            <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/93/88/04/20282944.jpg" > <!-- IMAGEM -->
+            <div class="sinopse">SINOPSE:Harry descobre que um prisioneiro fugitivo, Sirius Black, escapou de Azkaban e está atrás dele. Enquanto a ameaça cresce, Harry descobre segredos sobre seu passado e seu vínculo com Sirius. Em uma jornada de revelações, ele encontra aliados inesperados e enfrenta um dos maiores perigos de sua vida.
+           </div>
+            <button onclick="openModal('videos/harry-potter-e-o-prisioneiro-de-azkaban-2004.mp4')">Harry Potter e o Prisioneiro de Azkaban 2004</button>
+        </div>
+         <div class="movie-item" data-category="aventura,fantasia"> <!-- EXEMPLO:acao,inicio,lancamento -->
+            <img src="https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/93/87/95/20282862.jpg" > <!-- IMAGEM -->
+            <div class="sinopse">SINOPSE:Harry participa do Torneio Tribruxo, um evento mágico perigoso entre três escolas de magia. Durante a competição, forças sombrias se reúnem e Harry é forçado a enfrentar uma ameaça ainda maior: a volta de Voldemort ao poder. O torneio testa sua coragem e lealdade.</div>
+            <button onclick="openModal('videos/harry-potter-e-o-calice-de-fogo-2005.mp4')">Harry Potter e o Cálice de Fogo 2005</button>
+        </div>
+        <div class="movie-item" data-category="aventura,fantasia"> <!-- EXEMPLO:acao,inicio,lancamento -->
+            <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/90/67/58/20107766.jpg" > <!-- IMAGEM -->
+            <div class="sinopse">SINOPSE:O Ministério da Magia nega o retorno de Voldemort, e Harry forma a Ordem da Fênix para lutar contra as forças das trevas. Com o governo tentando controlá-lo, Harry e seus amigos enfrentam desafios políticos, enquanto ele busca um novo caminho para derrotar Voldemort e salvar o mundo bruxo.</div>
+            <button onclick="openModal('videos/harry-potter-e-a-ordem-da-fenix-2007.mp4')">Harry Potter e a Ordem da Fênix 2007 </button>
+        </div>
+        <div class="movie-item" data-category="aventura,fantasia"> <!-- EXEMPLO:acao,inicio,lancamento -->
+            <img src="https://i.pinimg.com/736x/a0/43/55/a04355387d792c249341446f9b5ad2ee.jpg" > <!-- IMAGEM -->
+            <div class="sinopse">SINOPSE:Harry descobre mais sobre o passado de Voldemort através das memórias de um antigo professor. Ele também começa a entender os Horcruxes, objetos mágicos que contêm pedaços da alma de Voldemort. Com perdas trágicas e grandes revelações, Harry se prepara para a batalha final.</div>
+            <button onclick="openModal('videos/harry-potter-e-o-enigma-do-principe-2009.mp4')">Harry Potter e o Enigma do Príncipe 2009 </button>
+        </div>
+        <div class="movie-item" data-category="aventura,fantasia"> <!-- EXEMPLO:acao,inicio,lancamento -->
+            <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/90/18/19962717.jpg" > <!-- IMAGEM -->
+            <div class="sinopse">SINOPSE:Harry, Ron e Hermione fogem para destruir os Horcruxes de Voldemort e enfraquecer seu poder. Enquanto o Lorde das Trevas se fortalece, a resistência se espalha, e Harry enfrenta desafios e sacrifícios profundos. A amizade deles será colocada à prova em sua jornada perigosa.</div>
+            <button onclick="openModal('videos/harry-potter-e-as-reliquias-da-morte-parte1-2010.mp4')">Harry Potter e as Relíquias da Morte - Parte 1 2010 </button>
+        </div>
+         <div class="movie-item" data-category="aventura,fantasia"> <!-- EXEMPLO:acao,inicio,lancamento -->
+            <img src="https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/87/91/95/19962896.jpg" > <!-- IMAGEM -->
+            <div class="sinopse">SINOPSE:A batalha final contra Voldemort começa. Harry, Ron e Hermione enfrentam os perigos finais na busca por destruir os Horcruxes restantes. A guerra contra as forças das trevas atinge Hogwarts, e o destino de Harry, dos seus amigos e do mundo bruxo será decidido em uma última luta épica.</div>
+            <button onclick="openModal('videos/harry-potter-e-as-reliquias-da-morte-parte2-2011.mp4')">Harry Potter e as Relíquias da Morte - Parte 2 2011 </button>
+        </div>
+        <div  class="movie-item" data-category="drama,comedia"> <!-- EXEMPLO:acao,inicio,lancamento -->
+            <img src="https://i.pinimg.com/736x/8d/39/2e/8d392e023b536d620ef6394dd3829c87.jpg" > <!-- IMAGEM -->
+             <div class="sinopse">SINOPSE:João Grilo, um sertanejo esperto, e Chicó, o mais covarde dos homens, vivem de pequenos golpes no vilarejo de Taperoá, no sertão da Paraíba. Entre mentiras e confusões, buscam sobreviver até que recebem a ajuda divina de Nossa Senhora. Adaptação da obra de Ariano Suassuna.
+            </div>
+            <button onclick="openModal('videos/o-auto-da-compadecida-2000.AVI')">O Auto da Compadecida 2000(OFFLINE) </button>
+        </div>
+        <div class="movie-item" data-category="drama,suspense">
+        <img src="imagens/destinos-a-deriva.webp">
+        <div class="sinopse">
+           SINOPSE:Mia (Anna Castillo) é uma mulher grávida que se esconde em um contêiner para fugir de um país totalitário com o marido. 
+           Separada dele à força, ela precisa lutar pela sobrevivência quando uma violenta tempestade a atira ao mar. 
+           Sozinha e à deriva no meio do oceano, Mia fará o impossível para salvar a vida da filha e reencontrar o companheiro.
+        </div>
+        <button onclick="openModal('videos/destino-a-deriva2023.mkv')">Destinos à Deriva 2023</button>
+    </div>

@@ -1,0 +1,7 @@
+<!-- filmes-premium.html -->
+<div class="movie-item" data-category="inicio,aventura,lancamento,ficcao,acao">
+        <img src="imagens/capitao america admiravel mundo novo.jfif">
+        <div class="sinopse">SINOPSE:Sam Wilson assume de vez o escudo como novo Capitão América, enfrentando desafios, ameaças e aliados inesperados.
+             Continuação da série Falcão e o Soldado Invernal, o filme faz parte da Fase 5 do UCM e explora as responsabilidades do herói no mundo pós-Steve Rogers.</div>
+        <button onclick="openModal('videos/capitao-america-admiravel-mundo-novo-2025.mp4')">Capitão América 2025 PREMIUM</button>
+    </div>

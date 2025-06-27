@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Worbingex</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="header-1">
+        <div class="saudacao-usuario" style="display: none;">
+      <span id="saudacaoUsuario">Olá, usuário</span>
+    </div>
+  </div>
+
+  <!-- Botão de Logout -->
+  <div class="button-logout" style="display: none;">
+    <button onclick="logout()">Sair</button>
+  </div>
+
+  <!-- Modal de Planos -->
+  <div id="modalPlanos">
+    <div class="modal-content planos-completo">
+      <span class="fechar-modal-planos" onclick="fecharModalPlanos()">✖</span>
+      <h3 class="titulo-planos">Escolha o melhor plano para você</h3>
+      <div class="planos-grid">
+        <div class="plano">
+          <h4>PLANO SEMANAL <P>Teste Premium</P> </h4>
+          <ul>
+            <li>🔓 Experimente sem riscos por 7 dias</li>
+            <li>🎬 Teste o catálogo completo com liberdade</li>
+            <li>❌ Cancele sem burocracia</li>
+          </ul>
+          <p class="preco">R$ 0,10</p>
+          <button onclick="selecionarPlano('7', 'pix')">PIX</button>
+          <button onclick="selecionarPlano('7', 'boleto')">Boleto</button>
+          <button onclick="selecionarPlano('7', 'cartao')">Cartão</button>
+        </div>
+
+        <div class="plano destaque">
+          <h4>PLANO MENSAL <p>O Campeão de Economia</p></h4>
+          <ul>
+            <li>✅ O mais vantajoso por mês</li>
+            <li>🔓 Cancele quando quiser</li>
+            <li>💥 Catálogo completo e atualizações diárias</li>
+          </ul>
+          <p class="preco">R$ 0,20</p>
+          <button onclick="selecionarPlano('30', 'pix')">PIX</button>
+          <button onclick="selecionarPlano('30', 'boleto')">Boleto</button>
+          <button onclick="selecionarPlano('30', 'cartao')">Cartão</button>
+        </div>
+
+        <div class="plano">
+          <h4>PLANO TRIMESTRAL<p>3x mais diversão</p></h4>
+          <ul>
+            <li>🚫 Sem anúncios, sem interrupções</li>
+            <li>🚀 Acesso rápido e estável</li>
+            <li>🔐 Economize mais que no semanal</li>
+          </ul>
+          <p class="preco">R$ 0,50</p>
+          <button onclick="selecionarPlano('90', 'pix')">PIX</button>
+          <button onclick="selecionarPlano('90', 'boleto')">Boleto</button>
+          <button onclick="selecionarPlano('90', 'cartao')">Cartão</button>
+        </div>
+
+        <div class="plano">
+          <h4>PLANO SEMESTRAL <p>Meia entrada no mundo VIP</p></h4>
+          <ul>
+            <li>💎 Desbloqueie conteúdos raros e exclusivos</li>
+            <li>📆 Esqueça a renovação por meio ano</li>
+            <li>📈 Economia crescente mês a mês</li>
+          </ul>
+          <p class="preco">R$ 0,70</p>
+          <button onclick="selecionarPlano('180', 'pix')">PIX</button>
+          <button onclick="selecionarPlano('180', 'boleto')">Boleto</button>
+          <button onclick="selecionarPlano('180', 'cartao')">Cartão</button>
+        </div>
+
+        <div class="plano">
+          <h4>PLANO ANUAL <p>Um ano de liberdade total</p></h4>
+          <ul>
+            <li>🎁 Surpresas exclusivas o ano todo</li>
+            <li>🏆 Estabilidade, confiança e atualizações garantidas</li>
+            <li>💰 Desconto brutal comparado a outros serviços</li>
+          </ul>
+          <p class="preco">R$ 1,00</p>
+          <button onclick="selecionarPlano('365', 'pix')">PIX</button>
+          <button onclick="selecionarPlano('365', 'boleto')">Boleto</button>
+          <button onclick="selecionarPlano('365', 'cartao')">Cartão</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header com carrossel -->
+  <div class="header">
+    <div class="carrossel">
+      <img src="https://www.papodecinema.com.br/wp-content/uploads/2025/06/20250602-predador-assassino-dos-assassinos-papo-de-cinema-cartaz.webp">
+      <img src="https://br.web.img3.acsta.net/c_310_420/img/56/0c/560c72bf877f88472877898cebe00ff0.jpg">
+      <img src="https://br.web.img3.acsta.net/c_310_420/img/24/0e/240eac67e72969dbe41293eaf9076530.jpg">
+      <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8ACkSmnhc1a57yH2IgBOdjyFHYN.jpg">
+      <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9XtzGmFT6cegK0uyJrUaknuxZHS.jpg">
+      <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pdX1SiCPw5qwKSUdX8AXU3B1QHZ.jpg">
+      <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hSljn1jfCClIbHNdlz6cWQEjncV.jpg">
+    </div>
+    <h1>Worbingex</h1>
+  </div>
+
+  <!-- Barra de busca -->
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Busque seu filme...">
+  </div>
+
+  <!-- Barra de gêneros -->
+  <div class="genres-bar">
+    <div class="genres">
+      <button onclick="filterCategory('inicio')">Início</button>
+      <button onclick="filterCategory('lancamento')">Lançamento</button>
+      <button onclick="filterCategory('acao')">Ação</button>
+      <button onclick="filterCategory('aventura')">Aventura</button>
+      <button onclick="filterCategory('suspense')">Suspense</button>
+      <button onclick="filterCategory('terror')">Terror</button>
+      <button onclick="filterCategory('ficcao')">Ficção Científica</button>
+      <button onclick="filterCategory('fantasia')">Fantasia</button>
+    </div>
+    <div class="genres">
+      <button onclick="filterCategory('comedia')">Comédia</button>
+      <button onclick="filterCategory('animacao')">Animação</button>
+      <button onclick="filterCategory('romance')">Romance</button>
+      <button onclick="filterCategory('drama')">Drama</button>
+      <button onclick="filterCategory('serie')">Série</button>
+    </div>
+  </div>
+
+  <div class="header-1">
+    <h2 id="categoryTitle">TOP 10</h2>
+  </div>
+
+  <!-- Lista de filmes -->
+  <div class="movies-list" id="filmesContainer">
+    <!-- Os filmes serão carregados via script.js -->
+  </div>
+
+  <!-- Modal de Player -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="videoPlayer" controls></video>
+    </div>
+  </div>
+
+  <!-- Login -->
+  <div class="login-overlay" id="loginOverlay">
+    <div class="login-box">
+      <h2>Área de Membros</h2>
+      <input type="email" id="loginEmail" placeholder="Email" />
+      <input type="password" id="loginSenha" placeholder="Senha" />
+      <button onclick="login()">Entrar</button>
+      <p>Não tem conta? <span onclick="showCadastro()">Cadastre-se</span></p>
+    </div>
+  </div>
+
+  <!-- Cadastro -->
+  <div class="cadastro-overlay" id="cadastroOverlay">
+    <div class="login-box">
+      <h2>Cadastro</h2>
+      <input type="text" id="cadastroNome" placeholder="Nome completo" />
+      <input type="email" id="cadastroEmail" placeholder="Email" />
+      <input type="password" id="cadastroSenha" placeholder="Senha" />
+      <button onclick="cadastrar()">Cadastrar</button>
+      <p>Já tem conta? <span onclick="showLogin()">Fazer login</span></p>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
